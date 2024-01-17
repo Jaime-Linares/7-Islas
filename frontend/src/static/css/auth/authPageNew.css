@@ -1,0 +1,39 @@
+.authNew-page {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../../images/BackgroundDashBoardPlayer4.jpg');
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+.authNew-form{
+    
+    background-color: rgba(255, 255, 255, 0.832);
+    padding: 1rem;
+    border-radius: 25px;
+    width: 30%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center
+}  
+
+.authNew-formlogout{
+    
+    background-color: rgba(255, 255, 255, 0.244);
+    padding: 1rem;
+    border-radius: 25px;
+    width: 40%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center
+}  

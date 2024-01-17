@@ -1,0 +1,109 @@
+.game-code-home-background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../../images/BackgroundDashBoardPlayer4.jpg');
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-code-page-container-head {
+    margin-bottom: 10%;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 1rem;
+    border-radius: 25px;
+    backdrop-filter: blur(10px);
+    position: relative;
+    bottom: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center
+}
+
+.game-code-input {
+  background-color: rgba(255, 255, 255, 0.764);
+  padding: 1rem;
+  border-radius: 25px;
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center
+}
+
+.game-code-button {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: rgb(87, 197, 96);
+    border: solid 2px var(--main-green-color);
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .game-code-button2 {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #d44848;
+    border: solid 2px var(--main-red-color);
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .game-code-button:hover {
+    background-color: var(--main-green-color);
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+  
+  .game-code-button2:hover {
+    background-color: var(--main-red-color);
+    box-shadow: 0px 15px 20px rgba(229, 52, 46, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+
+  .game-code-button:active {
+    transform: translateY(-1px);
+  }
+  
+  .game-code-button2:active {
+    transform: translateY(-1px);
+  }
+  .blue{
+    border: solid 2px var(--main-blue-color) !important;
+  }
+  
+  .blue:hover{
+    background-color: var(--main-blue-color) !important;
+    box-shadow: 0px 15px 20px rgba(46, 92, 229, 0.4);
+  }
+  
+  .danger{
+    border: solid 2px var(--main-red-color) !important;
+  }
+
+  .danger:hover{
+    background-color: var(--main-red-color) !important;
+    box-shadow: 0px 15px 20px rgba(229, 46, 46, 0.4);
+  }

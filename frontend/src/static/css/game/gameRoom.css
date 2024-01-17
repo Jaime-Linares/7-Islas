@@ -1,0 +1,273 @@
+.game-fondo {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../../images/BackgroundDashBoardPlayer4.jpg');
+    background-size: cover;
+    position: absolute;
+    height: 140%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-arriba {
+    height: 15%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-medio {
+    height: 50%;
+    width: 100%;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-abajo {
+    margin-top: 2%;
+    height: 30%;
+    width: 100%;
+    display: grid;
+    
+    
+}
+
+.game-cartas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.game-jugador1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.game-jugador2 {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-restoJugadores {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-tablero {
+    display: grid;
+    margin-right: 10%;
+    height: 100%;
+    width: 100%;
+}
+
+.game-contador {
+    background-color: rgba(255, 255, 255, 0.232);
+    padding: 1rem;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    justify-self: center;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.game-isla-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../../images/ISLA_NUEVA2.png');
+    background-size: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+
+.game-isla-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../../images/ISLA_NUEVA2.png');
+    background-size: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.game-isla-3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../../images/ISLA_NUEVA2.png');
+    background-size: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.game-isla-4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../../images/ISLA_NUEVA2.png');
+    background-size: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.game-isla-5 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../../images/ISLA_NUEVA2.png');
+    background-size: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.game-isla-6 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../../images/ISLA_NUEVA2.png');
+    background-size: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.game-mazo {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../../images/ISLA_NUEVA2.png');
+    background-size: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+
+.game-boton-abandonar {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-chat {
+    background-color: rgba(255, 255, 255, 0.855);
+    padding: 1rem;
+    border-radius: 25px;
+    width: 75%;
+    max-height: 70%;
+    margin-right: 2%;
+    margin-top: -10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: end;
+    justify-self: end;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.game-chat-mensajes {
+    height: 180px; /* Utiliza height en lugar de max-height */
+    
+    overflow: scroll;
+    overflow-x: hidden;
+    box-sizing: border-box; /* Considera el relleno y el borde en el tamaño total */
+}
+
+.game-chat-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    
+}
+
+.game-cartas-scroll {
+    width: 750px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    overflow: scroll;
+    overflow-y: hidden;
+}
+
+.game-espectadores {
+    background-color: rgba(255, 255, 255, 0.36);
+    padding: 1rem;
+    border-radius: 25px;
+    height: 50%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    justify-self: center;
+}

@@ -1,0 +1,26 @@
+.login-register-background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../../images/BackgroundDashBoardPlayer4.jpg');
+    background-size: cover;
+    position: absolute;
+    height: 110%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.login-register-main {
+    width: 30%;
+    margin-bottom: 1%;
+    background-color: rgba(255, 255, 255, 0.56);
+    padding: 1rem;
+    border-radius: 25px;
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center
+}

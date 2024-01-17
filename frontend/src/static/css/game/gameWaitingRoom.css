@@ -1,0 +1,130 @@
+.game-home-background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../../images/BackgroundDashBoardPlayer4.jpg');
+    background-size: cover;
+    position: absolute;
+    height: 110%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-page-container-head {
+    margin-right: 5%;
+    margin-bottom: 5%;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 0.5rem;
+    border-radius: 25px;
+    backdrop-filter: blur(10px); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center
+}
+
+.game-home-izquierda {
+    margin-right: 3%;
+    
+    background-color: rgba(255, 255, 255, 0.733);
+    padding: 0.5rem;
+    border-radius: 25px;
+    backdrop-filter: blur(10px); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center
+}
+
+.game-home-derecha {
+    margin-right: -2%;
+    
+    background-color: rgba(255, 255, 255, 0.733);
+    padding: 0.5rem;
+    border-radius: 25px;
+    backdrop-filter: blur(10px); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center
+}
+
+.game-home-arriba {
+    width: 100%;
+    margin-bottom: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.game-fotos-1{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.game-fotos-2{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2; 
+
+}
+
+.game-fotos-3{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.game-fotos-4{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.game-usuarios {
+    display: grid;
+    margin-top: -10%;
+    
+}
+
+
+.game-centrado {
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+

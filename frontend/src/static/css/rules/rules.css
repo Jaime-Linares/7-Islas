@@ -1,0 +1,13 @@
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../../images/BackgroundDashBoardPlayer4.jpg');
+    background-size: cover;
+}
+
+/* para que el ancho y altura de la imagen se ajusten automaticamente al contenedor */
+.image-container img {
+    max-width: 100%;
+    max-height: 100%;
+}
