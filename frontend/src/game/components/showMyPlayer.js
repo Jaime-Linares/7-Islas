@@ -1,5 +1,6 @@
 import { Button } from "reactstrap";
 import abandonGame from "../util/abandonGame";
+import changeTurn from "../util/changeTurn";
 
 
 export default function ShowMyPlayer(props) {
@@ -28,7 +29,10 @@ export default function ShowMyPlayer(props) {
                             onClick={() => {
                                 let confirmMessage = window.confirm("Are you sure you want to exit the game?")
                                 if (confirmMessage) {
-                                    abandonGame(props.game, props.user, props.setVisible, props.setMessage, props.jwt)
+                                    changeTurn(props.game, props.jwt, props.setMessage, props.setVisible);
+                                    setTimeout(() => {
+                                        abandonGame(props.game, props.user, props.setVisible, props.setMessage, props.jwt);
+                                    }, 2000);
                                 }
                             }}
                         >

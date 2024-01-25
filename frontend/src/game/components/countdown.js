@@ -14,7 +14,6 @@ export default function Countdown(props) {
                 setFecha(prevFecha => subtractASecond(prevFecha));
                 if (fecha.getUTCSeconds() === 1) {
                     changeTurn(props.game, props.jwt, props.setMessage, props.setVisible);
-                    abandonGame(props.game, props.user, props.setVisible, props.setMessage, props.jwt);
                     setTimeout(() => {
                         abandonGame(props.game, props.user, props.setVisible, props.setMessage, props.jwt);
                     }, 2000);
